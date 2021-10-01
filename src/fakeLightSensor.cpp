@@ -3,7 +3,7 @@
 
 FakeLightSensor::FakeLightSensor()
 {
-
+    srand(time(NULL));
 }
 
 uint8_t FakeLightSensor::lightLevel()
