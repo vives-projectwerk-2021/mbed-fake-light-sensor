@@ -8,6 +8,6 @@ FakeLightSensor::FakeLightSensor()
 
 uint8_t FakeLightSensor::getData()
 {
-    int random = rand() % 1000 + 1;
+    uint8_t random = rand() % 1000 + 1;
     return random;
 }
