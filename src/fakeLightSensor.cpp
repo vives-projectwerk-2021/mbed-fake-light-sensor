@@ -6,8 +6,8 @@ FakeLightSensor::FakeLightSensor()
     srand(time(NULL));
 }
 
-uint8_t FakeLightSensor::lightLevel()
+uint16_t FakeLightSensor::lightLevel()
 {
-    uint8_t random = rand() % 1000 + 1;
+    uint16_t random = rand() % 1000 + 1;
     return random;
 }

@@ -6,5 +6,5 @@ class FakeLightSensor
 {
     public:
         FakeLightSensor();
-        uint8_t lightLevel();
+        uint16_t lightLevel();
 };
